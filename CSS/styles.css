@@ -1,20 +1,33 @@
 main {
   display: grid;
   background-color: #fff4e3;               
-  grid-area: auto;
+  grid-column: auto auto auto auto;
+  grid-row: auto auto auto auto;
+  grid-area: auto auto auto auto;
 }
 
 .caja {
   width: 640px;
   height: 430px;
-  padding: 10px;
-  border: 5px solid rgb(167, 11, 11);
+  padding: 20px;
   top: 328px;
   left: 400px;
   background-color: #95bdca;
+  box-shadow: rgba(000, 000, 000, 0,2)
+
+}
+
+
+#img {  
+    width: 122px;
+    height: 173px;
+    background-color: aliceblue;
+    border: 2px solid rgba(00, 00, 00, 1);
+    padding: 20px;
+    top: 258px;
+    left: 428px;
+    border-radius: 6px;
 }
 
 
-#uno {
 
-}
