@@ -1,12 +1,11 @@
 main {
   display: grid;
   background-color: #fff4e3;               
-  grid-column: auto auto auto auto;
-  grid-row: auto auto auto auto;
-  grid-area: auto auto auto auto;
+  
 }
 
 .caja {
+  display: grid;
   width: 640px;
   height: 430px;
   padding: 20px;
@@ -14,6 +13,13 @@ main {
   left: 400px;
   background-color: #95bdca;
   box-shadow: rgba(000, 000, 000, 0,2)
+  
+}
+
+.name {
+   display: grid;
+  
+
 
 }
 
@@ -28,6 +34,3 @@ main {
     left: 428px;
     border-radius: 6px;
 }
-
-
-
