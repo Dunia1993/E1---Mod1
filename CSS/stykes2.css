@@ -1,0 +1,28 @@
+body{
+   background-color: #fff4e3;
+}
+
+.contenedor{
+          
+
+}
+
+.tarjeta{
+   background-color: rgba(149, 189, 202, 1);
+    width: 640px;
+    height: 430px;
+
+}
+
+#imgCarnet{
+    width: 122px;
+    height: 173px;
+    top: 258px;
+    left: 428px;
+    gap: 0px;
+    border-radius: 6px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background-color: aquamarine;
+    
+}
